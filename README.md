@@ -1,2 +1,0 @@
-# Tradebot
-Tradebot ekosistemi
