@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Proje Adı — Anasayfa</title>
+  <meta name="description" content="Basit ve temiz bir başlangıç şablonu." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">Logo</a>
+      <nav class="nav">
+        <a href="#features">Özellikler</a>
+        <a href="#about">Hakkında</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menüyü aç">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Merhaba, Dünya!</h1>
+        <p>Bu proje GitHub için hızlı bir başlangıç şablonudur. Responsive, minimal ve kolay genişletilebilir.</p>
+        <a class="btn" href="#features">Başlayalım</a>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <article>
+        <h2>Hızlı</h2>
+        <p>Minimal CSS ile hızlı yükleme.</p>
+      </article>
+      <article>
+        <h2>Responsive</h2>
+        <p>Mobil ve masaüstüne uygun tasarım.</p>
+      </article>
+      <article>
+        <h2>Kolay Özelleştirme</h2>
+        <p>Dosyaları düzenleyip kendi içeriğini ekleyebilirsin.</p>
+      </article>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>Hakkında</h2>
+      <p>Projeye kısa bir açıklama ekle. Bu alan ürünün/sitenin ne yaptığını anlatmak için idealdir.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>İletişim</h2>
+      <form id="contact-form">
+        <label>
+          İsim
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          E-posta
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Mesaj
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">Gönder</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Proje Adı. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
